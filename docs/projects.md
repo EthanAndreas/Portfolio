@@ -1,6 +1,7 @@
 ---
 title: Projects
 theme: home
+markdown.anchor: false
 ---
 
 # Projects summary
