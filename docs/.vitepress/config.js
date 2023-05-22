@@ -6,8 +6,8 @@ export default defineConfig({
   description: "Project presentation website in Vitepress",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects' }
+      { text: 'Home', link: '/VitePressWebsite/' },
+      { text: 'Projects', link: '/VitePressWebsite/projects' }
     ],
 
     sidebar: [
@@ -15,9 +15,9 @@ export default defineConfig({
         text: 'Projects',
         link: '/projects',
         items: [
-          { text: 'Sos2Mips', link: '/projects/sos2mips' },
-          { text: 'NetworkFrameFilter', link: '/projects/networkframefilter' },
-          { text: 'PacmanCpp', link: '/projects/pacmancpp' },
+          { text: 'Sos2Mips', link: '/VitePressWebsite/projects/sos2mips' },
+          { text: 'NetworkFrameFilter', link: '/VitePressWebsite/projects/networkframefilter' },
+          { text: 'PacmanCpp', link: '/VitePressWebsite/projects/pacmancpp' },
         ]
       }
     ],
