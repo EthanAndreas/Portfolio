@@ -1,25 +1,15 @@
 ---
-title: Projects
-theme: home
-markdown.anchor: false
+title: Projects list
+# theme for array of features
+theme: default
+# remove next line to hide hero
 ---
 
-# Projects summary
+# Projects list
 
-## Sos2Mips
+| Project | Description | 
+| --- | --- |
+| [Sos2Mips](/projects/sos2mips) | Convert a SOS file to MIPS file |
+| [NetworkFrameFilter](/projects/networkframefilter) | Retrieve information from network frame and decompose it by layers and protocols (Ethernet, IP, TCP, UDP, DNS, HTTP, etc...) |
+| [PacmanCpp](/projects/pacmancpp) | Pacman game in C++ with SDL library |
 
-Convert a SOS file to MIPS file
-
-[View project](/projects/sos2mips)
-
-## NetworkFrameFilter
-
-Retrieve information from network frame and decompose it by layers and protocols (Ethernet, IP, TCP, UDP, DNS, HTTP, etc...)
-
-[View project](/projects/networkframefilter)
-
-## PacmanCpp
-
-Pacman game in C++ with SDL library
-
-[View project](/projects/pacmancpp)

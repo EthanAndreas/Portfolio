@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Ethan Andreas",
   description: "Project presentation website in Vitepress",
+  lang: 'en-US',
+  base: '/lab/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -24,10 +25,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/EthanAndreas' }
-    ],
-
-    search: {
-      provider: 'algolia',
-    }
+    ]
   }
 })
