@@ -24,6 +24,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/EthanAndreas' }
-    ]
+    ],
+
+    search: {
+      provider: 'algolia',
+    }
   }
 })
