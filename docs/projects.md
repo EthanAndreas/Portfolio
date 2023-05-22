@@ -1,8 +1,6 @@
 ---
 title: Projects list
-# theme for array of features
 theme: default
-# remove next line to hide hero
 ---
 
 # Projects list

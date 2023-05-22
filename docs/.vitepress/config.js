@@ -6,6 +6,9 @@ export default defineConfig({
   lang: 'en-US',
   base: '/lab/',
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects' }
