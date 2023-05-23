@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Ethan Andreas",
+  title: "Ethan Huret",
   description: "Project presentation website in Vitepress",
   lang: 'en-US',
   // base: '/portfolio/',
@@ -29,8 +29,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/EthanAndreas' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/ethan-huret/' },
-    ]
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'All rights reserved. © 2023 Ethan Huret'
+    }
   }
-
-
 })

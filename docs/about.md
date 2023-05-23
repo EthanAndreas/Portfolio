@@ -18,14 +18,5 @@ I worked on a number of [computer projects](https://github.com/EthanAndreas?tab=
 
 ## What do I like?
 
-<!-- <div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 1;">
-    I'm passionate about oceans and surfing, my goals are to focus my professional path around this passion. I would like to work on the development of new technologies to help the ocean and the environment in general.
-  </div>
-  <div style="flex: 1;">
-    <img src="/assets/oceans.jpg" alt="Oceans" width="300">
-  </div>
-</div> -->
-
-[test](/assets/oceans.jpg)
+I'm passionate about oceans and surfing, my goals are to focus my professional path around this passion. I would like to work on the development of new technologies to help the ocean and the environment in general.
 

@@ -1,4 +1,7 @@
 # Projects presentation website in Vitepress
+[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/EthanAndreas/Portfolio)
+[![license](https://img.shields.io/badge/license-GPL_3.0-yellow.svg)](https://github.com/EthanAndreas/Portfolio/blob/main/LICENSE)
+[![author](https://img.shields.io/badge/author-EthanAndreas-blue)](https://github.com/EthanAndreas)
 
 ## Build the project
 
