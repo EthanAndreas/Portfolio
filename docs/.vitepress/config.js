@@ -21,7 +21,13 @@ export default defineConfig({
         items: [
           { text: 'Sos2Mips', link: '/projects/sos2mips' },
           { text: 'NetworkFrameFilter', link: '/projects/networkframefilter' },
+          { text: 'CloudAppDeployment', link: '/projects/cloudappdeployment' },
+          { text: 'TSCH-OrchestraAnalysis', link: '/projects/tschorchestra' },
           { text: 'PacmanCpp', link: '/projects/pacmancpp' },
+          { text: 'ChessGameCpp', link: '/projects/chessgamecpp' },
+          { text: 'XMLParse-Hash', link: '/projects/xmlparsehash' },
+          { text: 'TCPClientServer', link: '/projects/tcpclientserver' },
+          { text: 'FTPClient', link: '/projects/ftpclient' },
         ]
       }
     ],
@@ -32,8 +38,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
+      message: 'Released under the GNU General Public License.',
       copyright: 'All rights reserved. © 2023 Ethan Huret'
-    }
+    },
   }
 })
