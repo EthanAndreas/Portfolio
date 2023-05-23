@@ -4,15 +4,15 @@ export default defineConfig({
   title: "Ethan Andreas",
   description: "Project presentation website in Vitepress",
   lang: 'en-US',
-  base: '/lab/',
+  // base: '/portfolio/',
   themeConfig: {
-    search: {
-      provider: 'local'
-    },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects' }
+      { text: 'Projects', link: '/projects/index.md' },
+      { text: 'About me', link: '/about' }
     ],
+
+    logo: 'assets/logo.webp',
 
     sidebar: [
       {
@@ -27,7 +27,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/EthanAndreas' }
+      { icon: 'github', link: 'https://github.com/EthanAndreas' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/ethan-huret/' },
     ]
   }
+
+
 })
