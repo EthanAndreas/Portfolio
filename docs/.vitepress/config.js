@@ -4,7 +4,7 @@ export default defineConfig({
   title: "Ethan Huret",
   description: "Project presentation website in Vitepress",
   lang: 'en-US',
-  // base: '/portfolio/',
+  base: '/Portfolio/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
