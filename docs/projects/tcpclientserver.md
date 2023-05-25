@@ -1,5 +1,5 @@
 ---
-theme: deep
+theme: page
 ---
 
 # TCP Client Server

@@ -1,6 +1,6 @@
 ---
 title: Projects list
-theme: default
+theme: page
 next: false
 prev: false
 ---

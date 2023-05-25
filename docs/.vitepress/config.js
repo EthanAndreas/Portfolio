@@ -6,15 +6,22 @@ export default defineConfig({
   description: "Project presentation website in Vitepress",
   lang: 'en-US',
   base: '/Portfolio/',
+  theme: 'material-theme-palenight',
+  lineNumbers: true,
+
+  rewrites: [
+    { from: '/projects', to: '/projects/index.md' },
+  ],
+
   themeConfig: {
+
+    logo: 'img/logo.png',
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/index.md' },
       { text: 'About me', link: '/about' }
     ],
-
-    logo: 'img/logo.webp',
 
     sidebar: [
       {
@@ -41,7 +48,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GNU General Public License.',
-      copyright: 'All rights reserved. © 2023 Ethan Huret'
+      copyright: '© 2023 Ethan Huret. All rights reserved.',
     },
   }
 })

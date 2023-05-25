@@ -1,5 +1,5 @@
 ---
-theme: deep
+theme: page
 ---
 
 # Parse and hash XML files

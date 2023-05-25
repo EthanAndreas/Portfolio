@@ -1,5 +1,5 @@
 ---
-theme: deep
+theme: page
 ---
 
 # Cloud application deployment with Ansible

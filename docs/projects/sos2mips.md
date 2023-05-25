@@ -1,12 +1,12 @@
 ---
-theme: deep
+theme: page
 icon: 'github'
 link: '<https://github.com/EthanAndreas/SoS2MIPS>' 
+title: Sos2Mips
 ---
 
-# [Sos2Mips](<https://github.com/EthanAndreas/SoS2MIPS>)
-
-Convert a SOS file to MIPS file 
+![image](/img/compiler.png) 
+# Compiler for SOS language to MIPS
 
 ## Introduction
 

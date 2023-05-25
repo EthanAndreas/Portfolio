@@ -3,11 +3,11 @@ layout: home
 
 hero:
   name: "Home page"
-  text: "Projects presentation website in Vitepress"
+  text: "Projects presentation"
   actions:
     - theme: brand
       text: View all projects
-      link: /projects
+      link: /projects/index
 features:
   - icon: 
       src: /img/compiler.png

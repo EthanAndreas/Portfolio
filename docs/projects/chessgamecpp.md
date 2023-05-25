@@ -1,5 +1,5 @@
 ---
-theme: deep
+theme: page
 ---
 
 # Chess game in C++

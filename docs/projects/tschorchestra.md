@@ -1,5 +1,5 @@
 ---
-theme: deep
+theme: page
 ---
 
 # Performance analysis of TSCH and Orchestra
