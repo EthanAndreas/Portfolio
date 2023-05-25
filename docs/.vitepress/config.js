@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+
   title: "Ethan Huret",
   description: "Project presentation website in Vitepress",
   lang: 'en-US',
@@ -13,7 +14,7 @@ export default defineConfig({
       { text: 'About me', link: '/about' }
     ],
 
-    logo: 'assets/logo.webp',
+    logo: 'img/logo.webp',
 
     sidebar: [
       {
