@@ -1,7 +1,5 @@
 ---
 theme: deep
-next: false
-prev: false
 icon: 'github'
 link: '<https://github.com/EthanAndreas/SoS2MIPS>' 
 ---

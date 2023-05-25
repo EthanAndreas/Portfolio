@@ -1,7 +1,5 @@
 ---
 theme: deep
-next: false
-prev: false
 ---
 
 # Cloud application deployment with Ansible

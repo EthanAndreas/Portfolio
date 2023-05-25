@@ -6,6 +6,7 @@ export default defineConfig({
   lang: 'en-US',
   base: '/Portfolio/',
   themeConfig: {
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/index.md' },

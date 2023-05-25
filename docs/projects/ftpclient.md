@@ -1,7 +1,5 @@
 ---
 theme: deep
-next: false
-prev: false
 ---
 
 # FTP client
