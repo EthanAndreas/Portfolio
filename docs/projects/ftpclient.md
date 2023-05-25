@@ -2,9 +2,7 @@
 theme: page
 ---
 
-# FTP client
-
-FTP client in C with sockets.
+# FTP client in C
 
 ## GitHub repository
 

@@ -2,9 +2,7 @@
 theme: page
 ---
 
-# TCP Client Server
-
-TCP client and server in C with sockets.
+# TCP Client-Server in C
 
 ## GitHub repository
 

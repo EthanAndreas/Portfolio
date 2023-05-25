@@ -2,9 +2,7 @@
 theme: page
 ---
 
-# NetworkFrameFilter
-
-Retrieve information from network frame and decompose it by layers and protocols (Ethernet, IP, TCP, UDP, DNS, HTTP, etc...).
+# Network packets filter and analyzer
 
 ## GitHub repository
 

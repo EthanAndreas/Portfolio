@@ -2,6 +2,7 @@
 :root {
     --vp-c-solmon: #C7634A;
     --vp-c-dark-blue: #101822;
+    --vp-c-ligth-blue: #203044;
     --vp-c-grey: #3C3C42;
     --vp-c-white: #FFFFFF;
     --vp-c-black: #000000;
@@ -14,9 +15,23 @@
     --vp-header-anchor-symbol: '';
 }
 
+/*----------sidebar----------*/
+.dark {
+    --vp-c-bg-alt: var(--vp-c-ligth-blue);
+}
+
+/*----------block colors----------*/
+.dark {
+    --vp-c-bg-soft: var(--vp-c-ligth-blue);
+}
+
 /*----------text colors----------*/
 :root {
     --vp-c-brand: var(--vp-c-solmon);
+
+    --vp-input-border: var(--vp-c-white);
+    --vp-input-text: var(--vp-c-white);
+    --vp-input-bg: var(--vp-c-white);
 }
 
 .dark {

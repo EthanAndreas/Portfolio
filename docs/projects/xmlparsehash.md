@@ -2,9 +2,7 @@
 theme: page
 ---
 
-# Parse and hash XML files
-
-Parse and hash XML files in C.
+# Parse and hash XML files in C
 
 ## GitHub repository
 

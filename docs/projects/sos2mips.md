@@ -5,7 +5,6 @@ link: '<https://github.com/EthanAndreas/SoS2MIPS>'
 title: Sos2Mips
 ---
 
-![image](/img/compiler.png) 
 # Compiler for SOS language to MIPS
 
 ## Introduction

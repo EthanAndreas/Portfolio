@@ -2,9 +2,7 @@
 theme: page
 ---
 
-# PacmanCpp
-
-Pacman game in C++ with SDL library.
+# Pacman game in C++ with SDL library 
 
 ## GitHub repository
 
