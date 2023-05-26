@@ -28,3 +28,6 @@ or
 yarn docs:dev
 ```
 
+## Deployement on Github Pages
+
+[View website](https://ethanandreas.github.io/Portfolio/)
