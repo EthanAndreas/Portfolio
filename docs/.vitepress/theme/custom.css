@@ -15,6 +15,10 @@
     --vp-header-anchor-symbol: '';
 }
 
+p {
+    text-align: justify;
+}
+
 /*----------sidebar----------*/
 .dark {
     --vp-c-bg-alt: var(--vp-c-ligth-blue);
@@ -71,4 +75,17 @@
     --vp-button-brand-active-border: var(--vp-c-solmon);
     --vp-button-brand-active-text: var(--vp-c-white);
     --vp-button-brand-active-bg: var(--vp-c-solmon);
+}
+
+/*----------code----------*/
+:root {
+    --vp-code-block-bg: var(--vp-c-dark-blue);
+    --vp-code-text: var(--vp-c-white);
+    --vp-code-border: var(--vp-c-dark-blue);
+}
+
+.dark {
+    --vp-code-block-bg: var(--vp-c-light-blue);
+    --vp-code-text: var(--vp-c-white);
+    --vp-code-border: var(--vp-c-dark-blue);
 }
