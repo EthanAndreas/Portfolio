@@ -15,12 +15,13 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: 'img/logo.png',
+    logo: 'img/pp.png',
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/index.md' },
-      { text: 'About me', link: '/about' }
+      { text: 'About me', link: '/about' },
+      { text: 'Credits', link: '/credits' }
     ],
 
     sidebar: [

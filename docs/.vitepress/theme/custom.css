@@ -27,7 +27,7 @@
     --vp-c-text-dark-3: var(--vp-c-dark-white);
 }
 
-p {
+p:not(footer p) {
     text-align: justify;
 }
 
@@ -48,6 +48,8 @@ p {
     --vp-input-border: var(--vp-c-white);
     --vp-input-text: var(--vp-c-white);
     --vp-input-bg: var(--vp-c-white);
+
+    --vp-input-switch-bg-color: var(--vp-c-white);
 }
 
 .dark {
