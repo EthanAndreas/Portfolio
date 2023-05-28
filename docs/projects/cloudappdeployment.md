@@ -22,13 +22,13 @@ The application to be deployed is an online image hosting and resizing solution.
 For this project, we used a *3-node architecture* to deploy the application. These nodes correspond to *Virtual Machines*, which have an IP address (*192.168.70.\**) for *SSH* access to the machine and an IP address (*172.16.1.\**) for communication between them via *VXLAN tunnels*. All these *VMs* are configured as **Consul-Nomad** servers, one of which is automatically designated as the leader. The various parts of the application (frontend, backend, worker) are deployed via **Docker** containers. These containers are then deployed in a **Nomad job**, and listed and grouped as a **Consul service**.
 
 <div align="center">
-  <img src="/img/cloud-project/architecture-cloud.png" alt="Architecture" style="max-width: 100%;">
+  <img src="/img/architecture-cloud.png" alt="Architecture" style="max-width: 100%;">
 </div>
 
 In addition, a **floating IP** address is configured to receive the *http* flow from the application on one of the *VMs* and distribute it to the various *frontend containers* with a **HAProxy** load balancer. In addition, a *proxy* is used to redirect *http* traffic from *<https://gare-centrale.100do.se/>* to the floating IP *172.16.3.4*. As a result, the application's web interface is located at this [URI](https://gare-centrale.100do.se/).
 
 <div align="center">
-  <img src="/img/cloud-project/floating-ip.png" alt="Floating IP" style="max-width: 50%;">
+  <img src="/img/floating-ip.png" alt="Floating IP" style="max-width: 50%;">
 </div>
 
 ## Deploying the architecture

@@ -20,4 +20,3 @@ I worked on a number of [computer projects](https://github.com/EthanAndreas?tab=
 
 I'm passionate about oceans and surfing, my goals are to focus my professional path around this passion. I would like to work on the development of new technologies to help the ocean and the environment in general.
 
-<!-- ![image](./assets/compiler.png) -->

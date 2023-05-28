@@ -6,6 +6,6 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --port 8080",
     "docs:preview": "vitepress preview docs --port 8080",
-    "docs:build": "vitepress build docs --port 8080 && copyfiles -f docs/img/* docs/.vitepress/dist/img"
+    "docs:build": "vitepress build docs --port 8080 && copyfiles -f docs/img/**/* docs/.vitepress/dist/img"
   }
 }
