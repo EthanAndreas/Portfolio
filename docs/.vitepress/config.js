@@ -15,7 +15,11 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: 'img/pp.png',
+
+    logo: {
+      light: 'img/logo_blue.svg',
+      dark: 'img/logo_orange.svg'
+    },
 
     nav: [
       { text: 'Home', link: '/' },
