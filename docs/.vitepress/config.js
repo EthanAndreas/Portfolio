@@ -33,15 +33,12 @@ export default defineConfig({
         text: 'Projects',
         link: '/projects',
         items: [
-          { text: 'Sos2Mips', link: '/projects/sos2mips' },
-          { text: 'NetworkFrameFilter', link: '/projects/networkframefilter' },
-          { text: 'CloudAppDeployment', link: '/projects/cloudappdeployment' },
-          { text: 'TSCH-OrchestraAnalysis', link: '/projects/tschorchestra' },
-          { text: 'PacmanCpp', link: '/projects/pacmancpp' },
-          { text: 'ChessGameCpp', link: '/projects/chessgamecpp' },
-          { text: 'XMLParse-Hash', link: '/projects/xmlparsehash' },
-          { text: 'TCPClientServer', link: '/projects/tcpclientserver' },
-          { text: 'FTPClient', link: '/projects/ftpclient' },
+          { text: 'Cloud application deployment', link: '/projects/cloudappdeployment' },
+          { text: 'Pacman game in with SDL library', link: '/projects/pacmancpp' },
+          { text: 'Network frame filter', link: '/projects/networkframefilter' },
+          { text: 'Sos to Mips compiler', link: '/projects/sos2mips' },
+          { text: 'Terminal-integrated Chess game', link: '/projects/chessgamecpp' },
+          { text: 'TSCH and Orchestra benchmark', link: '/projects/tschorchestra' },
         ]
       }
     ],
