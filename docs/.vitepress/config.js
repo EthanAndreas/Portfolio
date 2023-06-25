@@ -45,11 +45,8 @@ export default defineConfig({
     ],
 
     footer: {
-      links: [
-        { text: 'Privacy Policy', link: '/privacy' }, // Add this line
-      ],
       message: 'Released under the GNU General Public License.',
-      copyright: '© 2023 Ethan Huret, all rights reserved. <a href=https://ethanandreas.github.io/Portfolio/policy.html>Privacy policy.</a.html>',
+      copyright: '© 2023 Ethan Huret, all rights reserved. <a href=/Portfolio/policy>Privacy policy.</a>',
     },
   }
 })
