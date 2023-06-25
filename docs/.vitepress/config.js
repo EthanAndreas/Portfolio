@@ -8,14 +8,11 @@ export default defineConfig({
   base: '/Portfolio/',
   theme: 'material-theme-palenight',
   lineNumbers: true,
-
   rewrites: [
     { from: '/projects', to: '/projects/index.md' },
   ],
 
   themeConfig: {
-
-
     logo: {
       light: 'img/logo_blue.svg',
       dark: 'img/logo_orange.svg'
@@ -24,8 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects/index.md' },
-      { text: 'About me', link: '/about' },
-      { text: 'Credits', link: '/credits' }
+      { text: 'About me', link: '/about' }
     ],
 
     sidebar: [
@@ -49,8 +45,11 @@ export default defineConfig({
     ],
 
     footer: {
+      links: [
+        { text: 'Privacy Policy', link: '/privacy' }, // Add this line
+      ],
       message: 'Released under the GNU General Public License.',
-      copyright: '© 2023 Ethan Huret. All rights reserved.',
+      copyright: '© 2023 Ethan Huret, all rights reserved. <a href=/policy>Privacy policy.</a>',
     },
   }
 })

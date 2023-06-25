@@ -30,4 +30,3 @@ features:
     details: Create a compiler for a language called SOS (Simple Operating System) to MIPS assembly language
     link: /projects/sos2mips
 ---
-
