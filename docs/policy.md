@@ -35,7 +35,7 @@ On this site, you will find links to my social network profiles, including **Lin
 ## Links to other websites
 
 On this site, you will find links to other websites. Please note that these links are directly linked to the corresponding companies and that when you click on these links, you will be redirected to the corresponding pages on these external platforms. Please consult the privacy policies and terms of use of these third-party platforms for more information on data collection and processing during your visit to these sites. 
-These websites are the following : **VitePress**, **Flaticon**, **Escalidraw**, **Consul**, **Docker**, **Keepalived**, **Nomad**, **Namco**.
+These websites are the following : **VitePress**, **Github**, **Flaticon**, **Escalidraw**, **Siemens**, **Consul**, **Docker**, **Keepalived**, **Nomad**, **Namco**, **SDL**, **Iotlab**.
 
 ## Contact information
 
