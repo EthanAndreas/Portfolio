@@ -35,6 +35,7 @@ export default defineConfig({
           { text: 'Sos to Mips compiler', link: '/projects/sos2mips' },
           { text: 'Terminal-integrated Chess game', link: '/projects/chessgamecpp' },
           { text: 'TSCH and Orchestra benchmark', link: '/projects/tschorchestra' },
+          { text: 'SDN project with P4 and Python', link: '/projects/rapace' },
         ]
       }
     ],
