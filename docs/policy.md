@@ -1,8 +1,5 @@
 ---
 theme: page
-sidebar: false
-prev: false
-next: false
 ---
 
 # Privacy policy
@@ -13,7 +10,7 @@ Welcome to my website ! This Privacy Policy will explain how I collect, use, and
 
 ## Website owner
 
-This website is owned by **Ethan Huret**, a student at [Télécom Physique Strasbourg](https://www.telecom-physique.fr/).
+This website is owned by **Ethan Huret**.
 
 ## Hosting
 

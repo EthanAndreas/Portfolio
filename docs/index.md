@@ -2,8 +2,7 @@
 layout: home
 
 hero:
-  name: "Home page"
-  text: "Projects presentation"
+  name: Welcome to my portfolio
   actions:
     - theme: brand
       text: View all projects

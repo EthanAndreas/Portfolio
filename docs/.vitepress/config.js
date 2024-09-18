@@ -24,21 +24,24 @@ export default defineConfig({
       { text: 'About me', link: '/about' }
     ],
 
-    sidebar: [
-      {
-        text: 'Projects',
-        link: '/projects',
-        items: [
-          { text: 'Cloud application deployment', link: '/projects/cloudappdeployment' },
-          { text: 'Pacman game in with SDL library', link: '/projects/pacmancpp' },
-          { text: 'Network frame filter', link: '/projects/networkframefilter' },
-          { text: 'Sos to Mips compiler', link: '/projects/sos2mips' },
-          { text: 'Terminal-integrated Chess game', link: '/projects/chessgamecpp' },
-          { text: 'TSCH and Orchestra benchmark', link: '/projects/tschorchestra' },
-          { text: 'SDN project with P4 and Python', link: '/projects/rapace' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/projects': [
+        {
+          text: 'Projects',
+          link: '/projects',
+          collapsed: false,
+          items: [
+            { text: 'Cloud application deployment', link: '/projects/cloudappdeployment'},
+            { text: 'Pacman game in with SDL library', link: '/projects/pacmancpp' },
+            { text: 'Network frame filter', link: '/projects/networkframefilter' },
+            { text: 'Sos to Mips compiler', link: '/projects/sos2mips' },
+            { text: 'Terminal-integrated Chess game', link: '/projects/chessgamecpp' },
+            { text: 'TSCH and Orchestra benchmark', link: '/projects/tschorchestra' },
+            { text: 'SDN project with P4 and Python', link: '/projects/rapace' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/EthanAndreas' },

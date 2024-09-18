@@ -1,20 +1,19 @@
 ---
 title: About me
 sidebar: false
-next: false
 ---
 
 # About me
 
-Hi there! I'm a engineering student from France, currently working at [Télécom Physique Strasbourg](https://www.telecom-physique.fr/). 
+Hi there! I'm a software engineer from France, currently working at [Siemens](https://www.siemens.com/global/). 
 
 ## Who am I ?
 
-I'm a 22 years old student, currently in my last year of engineering school. I'm passionate about operating systems, IoT and security.
+I'm a 23-year-old engineer who graduated from [Télécom Physique Strasbourg](https://www.telecom-physique.fr/) in the field of network and Internet of Things (IoT).
 
 ## What do I do ?
 
-I worked on a number of [programming projects](https://github.com/EthanAndreas?tab=repositories) in the last few years. The most important ones are the following : the development of a lightweight IP-based communication between field devices for [Siemens company](https://www.siemens.com/de/de/unternehmen/standorte/niederlassung-karlsruhe.html), the creation of a [compiler](/projects/sos2mips) or the study and addition of features on the [xv6](https://github.com/EthanAndreas/xv6-os) operating system. Currently, I am working for [Siemens company](https://www.siemens.com/de/de/unternehmen/standorte/niederlassung-karlsruhe.html) in *Haguenau, France* as a *Software Engineer* in the UltraSound flowmeter team at *Digital Industry Process Automation Measuring Intelligence* domain.
+I worked on a number of [programming projects](https://github.com/EthanAndreas?tab=repositories) in the last few years. The most important ones are the following : the development of a lightweight IP-based communication between field devices, the creation of a [compiler](/projects/sos2mips) or the study and addition of features on the [xv6](https://github.com/EthanAndreas/xv6-os) operating system. Currently, I am working for Siemens company in *Digital Industry Process Automation Measuring Intelligence* department in *Haguenau, France* as a *Software Engineer* in the flowmeter business line.
 
 ## What do I like?
 
