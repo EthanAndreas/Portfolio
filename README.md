@@ -15,7 +15,6 @@ or
 yarn docs:build
 ```
 
-
 ## Run the project
 
 At the root of the project, run the following command:
