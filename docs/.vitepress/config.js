@@ -32,12 +32,13 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Cloud application deployment', link: '/projects/cloudappdeployment'},
-            { text: 'Pacman game in with SDL library', link: '/projects/pacmancpp' },
+            { text: 'IP-Based Communication for Field Devices', link: '/projects/xcom' },
+            { text: 'Pacman game in C++', link: '/projects/pacmancpp' },
             { text: 'Network frame filter', link: '/projects/networkframefilter' },
+            { text: 'SDN project with P4 and Python', link: '/projects/rapace' },
             { text: 'Sos to Mips compiler', link: '/projects/sos2mips' },
             { text: 'Terminal-integrated Chess game', link: '/projects/chessgamecpp' },
             { text: 'TSCH and Orchestra benchmark', link: '/projects/tschorchestra' },
-            { text: 'SDN project with P4 and Python', link: '/projects/rapace' },
           ]
         }
       ]
@@ -50,7 +51,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GNU General Public License.',
-      copyright: '© 2023 Ethan Huret, all rights reserved. <a href=/Portfolio/policy>Privacy policy.</a>',
+      copyright: '© 2026 Ethan Huret, all rights reserved. <a href=/Portfolio/policy>Privacy policy.</a>',
     },
   }
 })
